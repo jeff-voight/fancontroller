@@ -1,0 +1,8 @@
+/workdir
+screenlog*
+*tmp.sh
+.*.s[a-w][a-z]
+/downloads
+.DS_Store
+*-bak
+_autosave*
