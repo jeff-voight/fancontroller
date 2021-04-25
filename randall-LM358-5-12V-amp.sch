@@ -206,17 +206,6 @@ Wire Wire Line
 	5550 1700 5650 1700
 Wire Wire Line
 	5650 1700 5650 1800
-$Comp
-L Connector:Barrel_Jack J1
-U 1 1 6050E38F
-P 7450 1700
-F 0 "J1" H 7507 2025 50  0000 C CNN
-F 1 "Barrel_Jack" H 7507 1934 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 7500 1660 50  0001 C CNN
-F 3 "~" H 7500 1660 50  0001 C CNN
-	1    7450 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7800 1800 7750 1800
 Wire Wire Line
@@ -755,4 +744,15 @@ Wire Wire Line
 	3750 1350 3650 1350
 Wire Wire Line
 	4050 1350 4150 1350
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 6050E38F
+P 7450 1700
+F 0 "J1" H 7507 2025 50  0000 C CNN
+F 1 "Barrel_Jack" H 7507 1934 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles" H 7500 1660 50  0001 C CNN
+F 3 "~" H 7500 1660 50  0001 C CNN
+	1    7450 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
