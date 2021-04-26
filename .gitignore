@@ -6,3 +6,4 @@ screenlog*
 .DS_Store
 *-bak
 _autosave*
+*.zip

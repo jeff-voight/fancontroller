@@ -500,17 +500,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5750 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 5350 5450 5350
-$Comp
-L Device:R R8
-U 1 1 607E39F6
-P 5850 4700
-F 0 "R8" V 5750 4550 50  0000 C CNN
-F 1 "15k" V 5750 4750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 4700 50  0001 C CNN
-F 3 "~" H 5850 4700 50  0001 C CNN
-	1    5850 4700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6200 5250 6200 4700
 Wire Wire Line
@@ -754,5 +743,16 @@ F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles" H 75
 F 3 "~" H 7500 1660 50  0001 C CNN
 	1    7450 1700
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 607E39F6
+P 5850 4700
+F 0 "R8" V 5750 4550 50  0000 C CNN
+F 1 "15k" V 5750 4750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 4700 50  0001 C CNN
+F 3 "~" H 5850 4700 50  0001 C CNN
+	1    5850 4700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
