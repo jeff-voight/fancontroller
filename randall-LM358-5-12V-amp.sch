@@ -210,10 +210,6 @@ Wire Wire Line
 	7800 1800 7750 1800
 Wire Wire Line
 	7750 1600 7800 1600
-Text GLabel 2550 3650 2    50   Input ~ 0
-PWM1
-Text GLabel 2550 3550 2    50   Input ~ 0
-PWM2
 Text GLabel 3850 3200 1    50   Input ~ 0
 PWM1
 Wire Wire Line
@@ -221,10 +217,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3300 4000 3300
 Text GLabel 7150 3700 0    50   Input ~ 0
-TACH1
-Text GLabel 2550 3050 2    50   Input ~ 0
-TACH2
-Text GLabel 2550 3150 2    50   Input ~ 0
 TACH1
 Wire Wire Line
 	7550 3500 7550 3450
@@ -563,19 +555,6 @@ Wire Wire Line
 	6150 1550 6200 1550
 Wire Wire Line
 	6200 1550 6200 1450
-$Comp
-L power:GND #PWR012
-U 1 1 60874636
-P 1650 4900
-F 0 "#PWR012" H 1650 4650 50  0001 C CNN
-F 1 "GND" H 1655 4727 50  0000 C CNN
-F 2 "" H 1650 4900 50  0001 C CNN
-F 3 "" H 1650 4900 50  0001 C CNN
-	1    1650 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 4450 1650 4900
 Text GLabel 5550 1550 0    50   Input ~ 0
 3V3DC
 $Comp
@@ -645,42 +624,7 @@ Text GLabel 7800 1600 2    50   Input ~ 0
 15VDC
 Text GLabel 7800 1800 2    50   Input ~ 0
 GND
-$Comp
-L ZUno:Z-Uno U3
-U 1 1 6077292A
-P 1650 3250
-F 0 "U3" H 1600 1953 60  0000 C CNN
-F 1 "Z-Uno" H 1600 1847 60  0000 C CNN
-F 2 "ZUno:Z-UNO" H 1650 3250 60  0001 C CNN
-F 3 "" H 1650 3250 60  0001 C CNN
-	1    1650 3250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1550 2350
-NoConn ~ 1650 2350
-NoConn ~ 650  2850
-NoConn ~ 650  2950
-NoConn ~ 650  3050
-NoConn ~ 650  3250
-NoConn ~ 650  3350
-NoConn ~ 650  3550
-NoConn ~ 650  3650
-NoConn ~ 650  3750
-NoConn ~ 650  3850
-NoConn ~ 650  4050
-NoConn ~ 650  4150
-NoConn ~ 2550 4150
-NoConn ~ 2550 4050
-NoConn ~ 2550 3950
-NoConn ~ 2550 3850
-NoConn ~ 2550 3450
-NoConn ~ 2550 3350
-NoConn ~ 2550 2850
-NoConn ~ 2550 2750
-NoConn ~ 2550 2650
 NoConn ~ 2350 1150
-Text GLabel 1750 2350 1    50   Input ~ 0
-3V3DC
 $Comp
 L Device:D_Schottky D1
 U 1 1 608F14CC
@@ -755,4 +699,95 @@ F 3 "~" H 5850 4700 50  0001 C CNN
 	1    5850 4700
 	0    1    1    0   
 $EndComp
+$Comp
+L ZUno-module:Z-Uno-Module U3
+U 1 1 60867D56
+P 2100 3650
+F 0 "U3" H 2050 4753 60  0000 C CNN
+F 1 "Z-Uno-Module" H 2050 4647 60  0000 C CNN
+F 2 "ZUno Module:Z-UNO Module" H 2100 3650 60  0001 C CNN
+F 3 "" H 2100 3650 60  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 4450 2    50   Input ~ 0
+PWM1
+Text GLabel 3000 4350 2    50   Input ~ 0
+PWM2
+Text GLabel 3000 3950 2    50   Input ~ 0
+TACH1
+Text GLabel 3000 3850 2    50   Input ~ 0
+TACH2
+Text GLabel 2100 2750 1    50   Input ~ 0
+3V3DC
+$Comp
+L power:GND #PWR019
+U 1 1 6087559C
+P 2250 5350
+F 0 "#PWR019" H 2250 5100 50  0001 C CNN
+F 1 "GND" H 2255 5177 50  0000 C CNN
+F 2 "" H 2250 5350 50  0001 C CNN
+F 3 "" H 2250 5350 50  0001 C CNN
+	1    2250 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 60875F25
+P 2150 5350
+F 0 "#PWR018" H 2150 5100 50  0001 C CNN
+F 1 "GND" H 2155 5177 50  0000 C CNN
+F 2 "" H 2150 5350 50  0001 C CNN
+F 3 "" H 2150 5350 50  0001 C CNN
+	1    2150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 60876B16
+P 2050 5350
+F 0 "#PWR017" H 2050 5100 50  0001 C CNN
+F 1 "GND" H 2055 5177 50  0000 C CNN
+F 2 "" H 2050 5350 50  0001 C CNN
+F 3 "" H 2050 5350 50  0001 C CNN
+	1    2050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 60876CD3
+P 1950 5350
+F 0 "#PWR012" H 1950 5100 50  0001 C CNN
+F 1 "GND" H 1955 5177 50  0000 C CNN
+F 2 "" H 1950 5350 50  0001 C CNN
+F 3 "" H 1950 5350 50  0001 C CNN
+	1    1950 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 2750
+NoConn ~ 1800 2750
+NoConn ~ 1700 2750
+NoConn ~ 1100 3250
+NoConn ~ 1100 3350
+NoConn ~ 1100 3450
+NoConn ~ 1100 3650
+NoConn ~ 1100 3750
+NoConn ~ 1100 3950
+NoConn ~ 1100 4050
+NoConn ~ 1100 4150
+NoConn ~ 1100 4250
+NoConn ~ 1100 4450
+NoConn ~ 1100 4550
+NoConn ~ 1100 4750
+NoConn ~ 3000 4150
+NoConn ~ 3000 4250
+NoConn ~ 3000 4650
+NoConn ~ 3000 4750
+NoConn ~ 3000 4850
+NoConn ~ 3000 4950
+NoConn ~ 3000 3250
+NoConn ~ 3000 3350
+NoConn ~ 3000 3450
+NoConn ~ 3000 3550
+NoConn ~ 3000 3650
 $EndSCHEMATC

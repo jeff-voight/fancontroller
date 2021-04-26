@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name ZUno)(type KiCad)(uri /Users/randall/Nextcloud/KiCad_ZUno_Lib/ZUno.pretty)(options "")(descr ""))
+  (lib (name "ZUno Module")(type KiCad)(uri /Users/randall/Environment/ZUno_Kicad/footprints/ZUno.pretty)(options "")(descr ""))
 )

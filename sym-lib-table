@@ -2,4 +2,5 @@
   (lib (name ZUno)(type Legacy)(uri ${KIPRJMOD}/KiCad_ZUno_Lib/ZUno.lib)(options "")(descr ""))
   (lib (name xl6009)(type Legacy)(uri ${KIPRJMOD}/xl6009.lib)(options "")(descr ""))
   (lib (name MP1584EN)(type Legacy)(uri ${KIPRJMOD}/MP1584EN.lib)(options "")(descr ""))
+  (lib (name ZUno-module)(type Legacy)(uri /Users/randall/Environment/ZUno_Kicad/symbols/ZUno.lib)(options "")(descr ""))
 )
