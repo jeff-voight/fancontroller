@@ -764,12 +764,8 @@ F 3 "" H 1950 5350 50  0001 C CNN
 	1    1950 5350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1900 2750
 NoConn ~ 1800 2750
 NoConn ~ 1700 2750
-NoConn ~ 1100 3250
-NoConn ~ 1100 3350
-NoConn ~ 1100 3450
 NoConn ~ 1100 3650
 NoConn ~ 1100 3750
 NoConn ~ 1100 3950
@@ -790,4 +786,65 @@ NoConn ~ 3000 3350
 NoConn ~ 3000 3450
 NoConn ~ 3000 3550
 NoConn ~ 3000 3650
+NoConn ~ 1300 3650
+NoConn ~ 1300 3750
+NoConn ~ 1300 3950
+NoConn ~ 1300 4050
+NoConn ~ 1300 4150
+NoConn ~ 1300 4250
+NoConn ~ 1300 4450
+NoConn ~ 1300 4550
+NoConn ~ 2800 4950
+NoConn ~ 2800 4850
+NoConn ~ 2800 4750
+NoConn ~ 2800 4650
+NoConn ~ 2800 3650
+NoConn ~ 2800 3550
+NoConn ~ 2800 3450
+NoConn ~ 2800 3350
+NoConn ~ 2800 3250
+NoConn ~ 1800 2950
+NoConn ~ 1700 2950
+NoConn ~ 3400 3800
+NoConn ~ 3750 4150
+$Comp
+L Connector:AVR-ISP-6 J2
+U 1 1 608E7125
+P 2150 6300
+F 0 "J2" H 1820 6304 50  0000 R CNN
+F 1 "AVR-ISP-6" H 1820 6395 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 1900 6350 50  0001 C CNN
+F 3 " ~" H 875 5750 50  0001 C CNN
+	1    2150 6300
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 3250 0    50   Input ~ 0
+SCK
+Text GLabel 1750 6300 0    50   Output ~ 0
+SCK
+Text GLabel 1100 3350 0    50   Input ~ 0
+MISO
+Text GLabel 1100 3450 0    50   Input ~ 0
+MOSI
+Text GLabel 1750 6500 0    50   Output ~ 0
+MISO
+Text GLabel 1750 6400 0    50   Output ~ 0
+MOSI
+Text GLabel 1900 2750 1    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR020
+U 1 1 608FEC8A
+P 2250 5900
+F 0 "#PWR020" H 2250 5650 50  0001 C CNN
+F 1 "GND" H 2255 5727 50  0000 C CNN
+F 2 "" H 2250 5900 50  0001 C CNN
+F 3 "" H 2250 5900 50  0001 C CNN
+	1    2250 5900
+	-1   0    0    1   
+$EndComp
+Text GLabel 1750 6200 0    50   Output ~ 0
+RST
+Text GLabel 2250 6800 3    50   Output ~ 0
+3V3DC
 $EndSCHEMATC

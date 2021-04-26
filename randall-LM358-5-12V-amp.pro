@@ -1,4 +1,4 @@
-update=Monday, April 26, 2021 at 12:08:53 AM
+update=Monday, April 26, 2021 at 06:43:11 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=randall-LM358-5-12V-amp.net
 CopperLayerCount=2
 BoardThickness=1.6002
 AllowMicroVias=0
@@ -77,7 +77,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=2
