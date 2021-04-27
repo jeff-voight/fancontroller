@@ -699,17 +699,6 @@ F 3 "~" H 5850 4700 50  0001 C CNN
 	1    5850 4700
 	0    1    1    0   
 $EndComp
-$Comp
-L randall-LM358-5-12V-amp-rescue:Z-Uno-Module-ZUno-module U3
-U 1 1 60867D56
-P 2100 3650
-F 0 "U3" H 2050 4753 60  0000 C CNN
-F 1 "Z-Uno-Module" H 2050 4647 60  0000 C CNN
-F 2 "ZUno Module:Z-UNO Module" H 2100 3650 60  0001 C CNN
-F 3 "" H 2100 3650 60  0001 C CNN
-	1    2100 3650
-	1    0    0    -1  
-$EndComp
 Text GLabel 3000 4450 2    50   Input ~ 0
 PWM1
 Text GLabel 3000 4350 2    50   Input ~ 0
@@ -774,7 +763,6 @@ NoConn ~ 1100 4150
 NoConn ~ 1100 4250
 NoConn ~ 1100 4450
 NoConn ~ 1100 4550
-NoConn ~ 1100 4750
 NoConn ~ 3000 4150
 NoConn ~ 3000 4250
 NoConn ~ 3000 4650
@@ -847,4 +835,26 @@ Text GLabel 1750 6200 0    50   Output ~ 0
 RST
 Text GLabel 2250 6800 3    50   Output ~ 0
 3V3DC
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 6088B474
+P 900 4750
+F 0 "J3" V 962 4794 50  0000 L CNN
+F 1 "Antenna Pin" H 750 4650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 900 4750 50  0001 C CNN
+F 3 "~" H 900 4750 50  0001 C CNN
+	1    900  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L randall-LM358-5-12V-amp-rescue:Z-Uno-Module-ZUno-module U3
+U 1 1 60867D56
+P 2100 3650
+F 0 "U3" H 2050 4753 60  0000 C CNN
+F 1 "Z-Uno-Module" H 2050 4647 60  0000 C CNN
+F 2 "ZUno Module:Z-UNO Module" H 2100 3650 60  0001 C CNN
+F 3 "" H 2100 3650 60  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
