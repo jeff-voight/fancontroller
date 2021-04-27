@@ -700,7 +700,7 @@ F 3 "~" H 5850 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ZUno-module:Z-Uno-Module U3
+L randall-LM358-5-12V-amp-rescue:Z-Uno-Module-ZUno-module U3
 U 1 1 60867D56
 P 2100 3650
 F 0 "U3" H 2050 4753 60  0000 C CNN
