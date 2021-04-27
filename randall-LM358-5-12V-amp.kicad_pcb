@@ -2061,7 +2061,7 @@
   (gr_text "Randall Shutt" (at 157.48 67.31) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify left))
   )
-  (gr_text "Version 0.0.1-zunomodule" (at 157.48 64.77) (layer F.SilkS)
+  (gr_text "Version 0.0.2-zunomodule" (at 157.48 64.77) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify left))
   )
   (gr_text "Fan Controller Board" (at 157.48 62.23) (layer F.SilkS)
