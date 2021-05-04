@@ -59,7 +59,7 @@ L Amplifier_Operational:LM358 U2
 U 3 1 604C327E
 P 6850 1700
 F 0 "U2" H 6808 1746 50  0000 L CNN
-F 1 "LM358" H 6808 1655 50  0000 L CNN
+F 1 "LM358N/NOPB" H 6808 1655 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6850 1700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6850 1700 50  0001 C CNN
 	3    6850 1700
@@ -226,7 +226,7 @@ L Motor:Fan_3pin M1
 U 1 1 604D2CEB
 P 7550 3700
 F 0 "M1" H 7708 3696 50  0000 L CNN
-F 1 "Fan_3pin" H 7708 3605 50  0000 L CNN
+F 1 "Molex 22282931" H 7708 3605 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 7550 3610 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 7550 3610 50  0001 C CNN
 	1    7550 3700
@@ -237,7 +237,7 @@ L Device:CP C4
 U 1 1 6077FEFC
 P 4550 3600
 F 0 "C4" H 4668 3646 50  0000 L CNN
-F 1 "100uF" H 4668 3555 50  0000 L CNN
+F 1 "100uF 25v" H 4668 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4588 3450 50  0001 C CNN
 F 3 "~" H 4550 3600 50  0001 C CNN
 	1    4550 3600
@@ -252,7 +252,7 @@ L Amplifier_Operational:LM358 U2
 U 1 1 604C11CF
 P 5750 3200
 F 0 "U2" H 5700 2850 50  0000 C CNN
-F 1 "LM358" H 5750 2924 50  0000 C CNN
+F 1 "LM358N/NOPB" H 5750 2924 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5750 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5750 3200 50  0001 C CNN
 	1    5750 3200
@@ -458,7 +458,7 @@ L Motor:Fan_3pin M2
 U 1 1 607E39E1
 P 7550 5750
 F 0 "M2" H 7708 5746 50  0000 L CNN
-F 1 "Fan_3pin" H 7708 5655 50  0000 L CNN
+F 1 "Molex 22282931" H 7708 5655 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 7550 5660 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 7550 5660 50  0001 C CNN
 	1    7550 5750
@@ -469,7 +469,7 @@ L Device:CP C5
 U 1 1 607E39E7
 P 4550 5650
 F 0 "C5" H 4432 5604 50  0000 R CNN
-F 1 "100uF" H 4432 5695 50  0000 R CNN
+F 1 "100uF 25v" H 4432 5695 50  0000 R CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4588 5500 50  0001 C CNN
 F 3 "~" H 4550 5650 50  0001 C CNN
 	1    4550 5650
@@ -484,7 +484,7 @@ L Amplifier_Operational:LM358 U2
 U 2 1 607E39EF
 P 5750 5250
 F 0 "U2" H 5700 4900 50  0000 C CNN
-F 1 "LM358" H 5750 4974 50  0000 C CNN
+F 1 "LM358N/NOPB" H 5750 4974 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5750 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5750 5250 50  0001 C CNN
 	2    5750 5250
@@ -562,7 +562,7 @@ L Regulator_Switching:LM2674M-3.3 U1
 U 1 1 60865A93
 P 2850 1150
 F 0 "U1" H 2850 1617 50  0000 C CNN
-F 1 "LM2674M-3.3" H 2850 1526 50  0000 C CNN
+F 1 "LM2674N-3.3/NOPB" H 2850 1526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2900 800 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2674.pdf" H 2850 1150 50  0001 C CNN
 	1    2850 1150
@@ -575,7 +575,7 @@ L Device:CP C1
 U 1 1 6086CCED
 P 1850 1100
 F 0 "C1" H 1968 1146 50  0000 L CNN
-F 1 "100uF" H 1968 1055 50  0000 L CNN
+F 1 "100uF OSCON-SEP" H 1600 950 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1888 950 50  0001 C CNN
 F 3 "~" H 1850 1100 50  0001 C CNN
 	1    1850 1100
@@ -601,13 +601,13 @@ F 3 "~" H 3500 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 1350 3450 1350
-Text GLabel 4150 1650 3    50   Input ~ 0
+Text GLabel 4450 1650 3    50   Input ~ 0
 GND
 Wire Wire Line
 	1850 1250 1850 1650
 Wire Wire Line
 	2850 1550 2850 1650
-Text GLabel 4400 1350 2    50   Output ~ 0
+Text GLabel 4650 1350 2    50   Output ~ 0
 3V3DC
 $Comp
 L power:VCC #PWR01
@@ -630,7 +630,7 @@ L Device:D_Schottky D1
 U 1 1 608F14CC
 P 3450 1500
 F 0 "D1" V 3404 1580 50  0000 L CNN
-F 1 "D_Schottky" V 3495 1580 50  0000 L CNN
+F 1 "11DQ05TA" V 3495 1580 50  0000 L CNN
 F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3450 1500 50  0001 C CNN
 F 3 "~" H 3450 1500 50  0001 C CNN
 	1    3450 1500
@@ -647,36 +647,30 @@ GND
 $Comp
 L Device:CP C3
 U 1 1 6087ABE3
-P 4150 1500
-F 0 "C3" H 4268 1546 50  0000 L CNN
-F 1 "100uF" H 4268 1455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4188 1350 50  0001 C CNN
-F 3 "~" H 4150 1500 50  0001 C CNN
-	1    4150 1500
+P 4450 1500
+F 0 "C3" H 4568 1546 50  0000 L CNN
+F 1 "100uF OSCON-SEP" H 4200 1400 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4488 1350 50  0001 C CNN
+F 3 "~" H 4450 1500 50  0001 C CNN
+	1    4450 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 950  4150 1350
-Wire Wire Line
-	3350 950  4150 950 
-Connection ~ 4150 1350
-Wire Wire Line
-	4150 1350 4400 1350
+Connection ~ 4450 1350
 $Comp
 L Device:L L1
 U 1 1 60877FA2
-P 3900 1350
-F 0 "L1" V 4090 1350 50  0000 C CNN
-F 1 "68uH" V 3999 1350 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P5.08mm_Vertical_Fastron_LACC" H 3900 1350 50  0001 C CNN
-F 3 "~" H 3900 1350 50  0001 C CNN
-	1    3900 1350
+P 4050 1350
+F 0 "L1" V 4240 1350 50  0000 C CNN
+F 1 "68uH B78148E" V 4149 1350 50  0000 C CNN
+F 2 "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P5.08mm_Vertical_Fastron_LACC" H 4050 1350 50  0001 C CNN
+F 3 "~" H 4050 1350 50  0001 C CNN
+	1    4050 1350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3750 1350 3650 1350
+	3900 1350 3650 1350
 Wire Wire Line
-	4050 1350 4150 1350
+	4200 1350 4450 1350
 $Comp
 L Connector:Barrel_Jack J1
 U 1 1 6050E38F
@@ -850,11 +844,17 @@ $Comp
 L randall-LM358-5-12V-amp-rescue:Z-Uno-Module-ZUno-module U3
 U 1 1 60867D56
 P 2100 3650
-F 0 "U3" H 2050 4753 60  0000 C CNN
-F 1 "Z-Uno-Module" H 2050 4647 60  0000 C CNN
+F 0 "U3" H 2500 4650 60  0000 C CNN
+F 1 "Z-Uno-Module" H 2550 4500 60  0000 C CNN
 F 2 "ZUno Module:Z-UNO Module" H 2100 3650 60  0001 C CNN
 F 3 "" H 2100 3650 60  0001 C CNN
 	1    2100 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4450 1350 4650 1350
+Wire Wire Line
+	4450 1350 4450 950 
+Wire Wire Line
+	3350 950  4450 950 
 $EndSCHEMATC
