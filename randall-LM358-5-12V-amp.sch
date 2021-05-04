@@ -59,7 +59,7 @@ L Amplifier_Operational:LM358 U2
 U 3 1 604C327E
 P 6850 1700
 F 0 "U2" H 6808 1746 50  0000 L CNN
-F 1 "LM358" H 6808 1655 50  0000 L CNN
+F 1 "LM358N/NOPB" H 6808 1655 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6850 1700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6850 1700 50  0001 C CNN
 	3    6850 1700
@@ -91,7 +91,7 @@ L Device:R R5
 U 1 1 604D06B8
 P 6650 3600
 F 0 "R5" H 6580 3554 50  0000 R CNN
-F 1 "46k" H 6580 3645 50  0000 R CNN
+F 1 "47k" H 6580 3645 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6580 3600 50  0001 C CNN
 F 3 "~" H 6650 3600 50  0001 C CNN
 	1    6650 3600
@@ -116,7 +116,7 @@ L Device:D D2
 U 1 1 604CC4F0
 P 7150 3250
 F 0 "D2" V 7104 3330 50  0000 L CNN
-F 1 "1N1004" V 7195 3330 50  0000 L CNN
+F 1 "1N4004G-T" V 7195 3330 50  0000 L CNN
 F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7150 3250 50  0001 C CNN
 F 3 "~" H 7150 3250 50  0001 C CNN
 	1    7150 3250
@@ -207,9 +207,9 @@ Wire Wire Line
 Wire Wire Line
 	5650 1700 5650 1800
 Wire Wire Line
-	7800 1800 7750 1800
+	8100 1750 8050 1750
 Wire Wire Line
-	7750 1600 7800 1600
+	8050 1550 8100 1550
 Text GLabel 2550 3650 2    50   Input ~ 0
 PWM1
 Text GLabel 2550 3550 2    50   Input ~ 0
@@ -234,7 +234,7 @@ L Motor:Fan_3pin M1
 U 1 1 604D2CEB
 P 7550 3700
 F 0 "M1" H 7708 3696 50  0000 L CNN
-F 1 "Fan_3pin" H 7708 3605 50  0000 L CNN
+F 1 "Molex 22292031" H 7708 3605 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 7550 3610 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 7550 3610 50  0001 C CNN
 	1    7550 3700
@@ -245,7 +245,7 @@ L Device:CP C4
 U 1 1 6077FEFC
 P 4550 3600
 F 0 "C4" H 4668 3646 50  0000 L CNN
-F 1 "100uF" H 4668 3555 50  0000 L CNN
+F 1 "100uF 25v" H 4668 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4588 3450 50  0001 C CNN
 F 3 "~" H 4550 3600 50  0001 C CNN
 	1    4550 3600
@@ -260,7 +260,7 @@ L Amplifier_Operational:LM358 U2
 U 1 1 604C11CF
 P 5750 3200
 F 0 "U2" H 5700 2850 50  0000 C CNN
-F 1 "LM358" H 5750 2924 50  0000 C CNN
+F 1 "LM358N/NOPB" H 5750 2924 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5750 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5750 3200 50  0001 C CNN
 	1    5750 3200
@@ -361,7 +361,7 @@ L Device:R R10
 U 1 1 607E3998
 P 6650 5650
 F 0 "R10" H 6580 5604 50  0000 R CNN
-F 1 "46k" H 6580 5695 50  0000 R CNN
+F 1 "47k" H 6580 5695 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6580 5650 50  0001 C CNN
 F 3 "~" H 6650 5650 50  0001 C CNN
 	1    6650 5650
@@ -386,7 +386,7 @@ L Device:D D3
 U 1 1 607E39AE
 P 7150 5300
 F 0 "D3" V 7104 5380 50  0000 L CNN
-F 1 "1N1004" V 7195 5380 50  0000 L CNN
+F 1 "1N4004G-T" V 7195 5380 50  0000 L CNN
 F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7150 5300 50  0001 C CNN
 F 3 "~" H 7150 5300 50  0001 C CNN
 	1    7150 5300
@@ -466,7 +466,7 @@ L Motor:Fan_3pin M2
 U 1 1 607E39E1
 P 7550 5750
 F 0 "M2" H 7708 5746 50  0000 L CNN
-F 1 "Fan_3pin" H 7708 5655 50  0000 L CNN
+F 1 "Molex 22292031" H 7708 5655 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 7550 5660 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 7550 5660 50  0001 C CNN
 	1    7550 5750
@@ -477,7 +477,7 @@ L Device:CP C5
 U 1 1 607E39E7
 P 4550 5650
 F 0 "C5" H 4432 5604 50  0000 R CNN
-F 1 "100uF" H 4432 5695 50  0000 R CNN
+F 1 "100uF 25v" H 4432 5695 50  0000 R CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4588 5500 50  0001 C CNN
 F 3 "~" H 4550 5650 50  0001 C CNN
 	1    4550 5650
@@ -492,7 +492,7 @@ L Amplifier_Operational:LM358 U2
 U 2 1 607E39EF
 P 5750 5250
 F 0 "U2" H 5700 4900 50  0000 C CNN
-F 1 "LM358" H 5750 4974 50  0000 C CNN
+F 1 "LM358N/NOPB" H 5750 4974 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5750 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5750 5250 50  0001 C CNN
 	2    5750 5250
@@ -583,7 +583,7 @@ L Regulator_Switching:LM2674M-3.3 U1
 U 1 1 60865A93
 P 2850 1150
 F 0 "U1" H 2850 1617 50  0000 C CNN
-F 1 "LM2674M-3.3" H 2850 1526 50  0000 C CNN
+F 1 "LM2674N-3.3/NOPB" H 2850 1526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2900 800 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2674.pdf" H 2850 1150 50  0001 C CNN
 	1    2850 1150
@@ -594,21 +594,21 @@ GND
 $Comp
 L Device:CP C1
 U 1 1 6086CCED
-P 1850 1100
-F 0 "C1" H 1968 1146 50  0000 L CNN
-F 1 "100uF" H 1968 1055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1888 950 50  0001 C CNN
-F 3 "~" H 1850 1100 50  0001 C CNN
-	1    1850 1100
+P 1550 1100
+F 0 "C1" H 1668 1146 50  0000 L CNN
+F 1 "100uF OSCON-SEP" H 1300 1000 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1588 950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/polymer-capacitors/os-con/models/20SEP100M" H 1550 1100 50  0001 C CNN
+	1    1550 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 1650 3    50   Input ~ 0
+Text GLabel 1550 1650 3    50   Input ~ 0
 GND
 Wire Wire Line
-	1400 950  1850 950 
-Connection ~ 1850 950 
+	1400 950  1550 950 
+Connection ~ 1550 950 
 Wire Wire Line
-	1850 950  2350 950 
+	1550 950  2350 950 
 $Comp
 L Device:C C2
 U 1 1 60874BBE
@@ -622,13 +622,13 @@ F 3 "~" H 3500 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 1350 3450 1350
-Text GLabel 4150 1650 3    50   Input ~ 0
+Text GLabel 4350 1650 3    50   Input ~ 0
 GND
 Wire Wire Line
-	1850 1250 1850 1650
+	1550 1250 1550 1650
 Wire Wire Line
 	2850 1550 2850 1650
-Text GLabel 4400 1350 2    50   Output ~ 0
+Text GLabel 4600 1350 2    50   Output ~ 0
 3V3DC
 $Comp
 L power:VCC #PWR01
@@ -641,9 +641,9 @@ F 3 "" H 1400 950 50  0001 C CNN
 	1    1400 950 
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7800 1600 2    50   Input ~ 0
+Text GLabel 8100 1550 2    50   Input ~ 0
 15VDC
-Text GLabel 7800 1800 2    50   Input ~ 0
+Text GLabel 8100 1750 2    50   Input ~ 0
 GND
 $Comp
 L ZUno:Z-Uno U3
@@ -686,7 +686,7 @@ L Device:D_Schottky D1
 U 1 1 608F14CC
 P 3450 1500
 F 0 "D1" V 3404 1580 50  0000 L CNN
-F 1 "D_Schottky" V 3495 1580 50  0000 L CNN
+F 1 "11DQ05TA" V 3500 1550 50  0000 L CNN
 F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3450 1500 50  0001 C CNN
 F 3 "~" H 3450 1500 50  0001 C CNN
 	1    3450 1500
@@ -703,45 +703,45 @@ GND
 $Comp
 L Device:CP C3
 U 1 1 6087ABE3
-P 4150 1500
-F 0 "C3" H 4268 1546 50  0000 L CNN
-F 1 "100uF" H 4268 1455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4188 1350 50  0001 C CNN
-F 3 "~" H 4150 1500 50  0001 C CNN
-	1    4150 1500
+P 4350 1500
+F 0 "C3" H 4468 1546 50  0000 L CNN
+F 1 "100uF OSCON-SEP" H 4100 1400 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4388 1350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/polymer-capacitors/os-con/models/20SEP100M" H 4350 1500 50  0001 C CNN
+	1    4350 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 950  4150 1350
+	4350 950  4350 1350
 Wire Wire Line
-	3350 950  4150 950 
-Connection ~ 4150 1350
+	3350 950  4350 950 
+Connection ~ 4350 1350
 Wire Wire Line
-	4150 1350 4400 1350
+	4350 1350 4600 1350
 $Comp
 L Device:L L1
 U 1 1 60877FA2
 P 3900 1350
-F 0 "L1" V 4090 1350 50  0000 C CNN
-F 1 "68uH" V 3999 1350 50  0000 C CNN
+F 0 "L1" V 3850 1350 50  0000 C CNN
+F 1 "68uH B78148E" V 4000 1300 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P5.08mm_Vertical_Fastron_LACC" H 3900 1350 50  0001 C CNN
-F 3 "~" H 3900 1350 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/30/ds/b78108_148e.pdf" H 3900 1350 50  0001 C CNN
 	1    3900 1350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3750 1350 3650 1350
 Wire Wire Line
-	4050 1350 4150 1350
+	4050 1350 4350 1350
 $Comp
 L Connector:Barrel_Jack J1
 U 1 1 6050E38F
-P 7450 1700
-F 0 "J1" H 7507 2025 50  0000 C CNN
-F 1 "Barrel_Jack" H 7507 1934 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles" H 7500 1660 50  0001 C CNN
-F 3 "~" H 7500 1660 50  0001 C CNN
-	1    7450 1700
+P 7750 1650
+F 0 "J1" H 7807 1975 50  0000 C CNN
+F 1 "Barrel_Jack" H 7807 1884 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 7800 1610 50  0001 C CNN
+F 3 "~" H 7800 1610 50  0001 C CNN
+	1    7750 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -755,4 +755,5 @@ F 3 "~" H 5850 4700 50  0001 C CNN
 	1    5850 4700
 	0    1    1    0   
 $EndComp
+NoConn ~ 4850 900 
 $EndSCHEMATC
