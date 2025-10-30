@@ -8441,7 +8441,7 @@
 			(uuid "bea34794-e804-45c3-8c42-c940c6be7c26")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
